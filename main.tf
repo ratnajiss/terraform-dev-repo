@@ -8,7 +8,7 @@ tenant_id = var.tenant_id
 client_secret = var.client_secret
 }
 resource "azurerm_resource_group" "iacrg1" {
-    name = "iacrg01"
+    name = "iacrg02"
     location = "East Us"
   
 }
